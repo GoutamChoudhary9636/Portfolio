@@ -1,0 +1,282 @@
+/* First break point(1024px) */
+@media screen and (max-width: 1024px){
+    .firstLeft{
+        font-size: 1.8rem;
+    }
+
+    .button button{
+        padding: 9px;
+        margin-top: 2px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .aboutRightSection1{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .aboutRightSection2{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .contactme{
+        width: 100px;
+        padding: 6px 0px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+
+    .myIntro{
+        font-size: 15px;
+    }
+
+    .aboutTop :last-child {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contactTop :first-child {
+        font-size: 15px;
+    }
+
+    .contactTop :last-child {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .contactLtext {
+        font-size: 0.7rem;
+    }
+
+    .writeMe {
+        font-size: 0.68rem;
+        /* color: var(--skin-color);
+        margin-top: 12px; */
+    }
+
+    .contactRight {
+        margin-top: 5px;
+    }
+
+    .contactButton{
+        width: 100px;
+        padding: 8px 0px;
+        margin-top: 15px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+/* Second break point(768px) */
+@media screen and (max-width: 768px){
+
+    .leftPart{
+        font-size: 1.3rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        color: #ffffff;
+        font-size: large;
+    }
+
+    .rightPart ul{
+        display: none;
+    }
+
+    .firstLeft{
+        font-size: 1.3rem;
+    }
+
+    .button button{
+        padding: 4px 6px;
+        margin-top: 2px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    .aboutRightSection1{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .aboutRightSection2{
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+
+    .contactme{
+        width: 80px;
+        padding: 4px 0px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+ 
+    .contactTop :first-child {
+        font-size: 12px;
+    }
+    
+    .aboutTop :last-child {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .contactTop :last-child {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .contactLtext {
+        font-size: 0.5rem;
+    }
+
+    .writeMe {
+        font-size: 0.52rem;
+    }
+
+    .contactRight {
+        margin-top: 4px;
+    }
+
+    .contactButton{
+        width: 80px;
+        padding: 4px 0px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+}
+
+/* Third break point(426px) */
+@media screen and (max-width: 426px){
+
+    
+
+    .leftPart{
+        font-size: 1rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        color: #ffffff;
+        font-size: small;
+    }
+
+    nav{
+        height: 60px;
+        width: 448px;
+    }
+
+    .navbar{
+        height: 60px;
+        align-items: center;
+        width: 80%;
+    }
+
+    .rightPart ul{
+        display: none;
+    }
+
+    .firstSection{
+        flex-direction: column;
+        align-items: center;
+        height: 458px;
+    }
+
+    .firstLeft{
+        font-size: 1.3rem;
+        width: 80%;
+    }
+
+    .button button{
+        padding: 5px 6px;
+        margin-top: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 9px;
+        margin-left: 65px;
+    }
+
+    .firstRight {
+        width: 65%;
+        height: 85vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }    
+
+    .about{
+        width: 448px;
+    }
+
+    .aboutMain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    }
+    
+    .aboutRightSection1{
+        font-size: 0.95rem;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .aboutRightSection2{
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+
+    .contactme{
+        width: 80px;
+        padding: 4px 0px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .myIntro{
+        font-size: 12px;
+    }
+
+    .aboutTop :last-child {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .contact{
+        width: 448px;
+    }
+
+    .contactTop :first-child {
+        font-size: 12px;
+    }
+
+    .contactTop :last-child {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .contactLtext {
+        font-size: 0.33rem;
+    }
+
+    .writeMe {
+        font-size: 0.34rem;
+    }
+
+    .contactRight {
+        margin-top: 4px;
+    }
+
+    .contactButton{
+        width: 80px;
+        padding: 4px 0px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+}

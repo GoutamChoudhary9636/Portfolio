@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Porfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="leftPart">Goutam<span id="surname">Choudhary</span></div>
+                <div class="rightPart">
+                    <ul>
+                        <li><a href="/"></a>Home</a></li>
+                        <li><a href="/"></a>About</a></li>
+                        <li><a href="/"></a>Services</a></li>
+                        <li><a href="/"></a>Skills</a></li>
+                        <li><a href="/"></a>Contact Me</a></li>
+                    </ul>
+                    <!-- Hamburger -->
+                    <a href="#" class="nav-toggle hoverlink">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- FirstSection -->
+        <section class="firstSection">
+            <div class="firstLeft">
+                <div>Hi, My name is <span class="Namecolor">Goutam</span></div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+                <div class="button">
+                    <button>More About Me</button>
+                </div>
+            </div>
+            <div class="firstRight">
+                <img src="./images/myimage.png" alt="MyImage">
+            </div>
+        </section>
+
+        <!-- AboutSection -->
+        <section class="about">
+            <div class="aboutTop">
+                <p class="myIntro">My intro</p>
+                <p class="aboutMe">About Me</p>
+            </div>
+
+            <!-- About main -->
+            <div class="aboutMain">
+                <div class="aboutLeft">
+                    <div class="aboutImg">
+                        <img src="./images/myimage.png" alt="AboutImg">
+                    </div>
+                </div>
+
+                <div class="aboutRight">
+                    <div class="aboutRightSection1">Hi,I'm Goutam Choudhary,Based in Indore</div>
+                    <div class="aboutRightSection2">Frontend Web developer, with extensive experience in HTML, CSS &
+                        JavaScript</div>
+                    <div class="aboutRightSection3">
+                        <button class="contactme">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="contactTop">
+                <p class="getInTouch">Get In touch</p>
+                <p class="contactMe">Contact Me</p>
+            </div>
+
+            <!-- contact main -->
+            <div class="contactMain">
+                <div class="contactLeft">
+                    <div class="contactL Email">
+                        <i id="emailicon" class="fa-regular fa-envelope-circle-check"></i>
+                        <span class="contactLtext">Email</span>
+                        <span class="contactLtext">rc.goutam.choudhary@gmail.com</span>
+                        <span class="writeMe">write me -></span>
+                    </div>
+                    <div class="contactL Whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span class="contactLtext">Whatsapp</span>
+                        <span class="contactLtext">96917-29636</span>
+                        <span class="writeMe">write me -></span>
+                    </div>
+                    <div class="contactL Messenger">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <span class="contactLtext">Messaeger</span>
+                        <span class="contactLtext">user.1234</span>
+                        <span class="writeMe">write me -></span>
+                    </div>
+                </div>
+
+                <div class="contactRight">
+                    <form>
+                        <div class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-text">Username</label>
+                        </div>
+                        <div class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-text">Email</label>
+                        </div>
+                        <div class="form">
+                            <input type="text" name="text" autocomplete="off" required />
+                            <label for="text" class="label-text">Phone</label>
+                        </div>
+                        <div class="form">
+                            <textarea class="text-Placeholder" name="text" autocomplete="off"
+                                placeholder="Message"></textarea>
+                            <label for="text" class="label-text"></label>
+                        </div>
+                        <button class="contactButton">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- javascript -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
